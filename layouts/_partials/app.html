@@ -1,0 +1,11 @@
+{{- /*
+  The application a page belongs to: its top-level section (countrep,
+  step-challenge), in the page's language. nil on the home page.
+*/ -}}
+{{- $app := false -}}
+{{- if not .IsHome -}}
+  {{- with .FirstSection -}}
+    {{- if not .IsHome }}{{ $app = . }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $app -}}

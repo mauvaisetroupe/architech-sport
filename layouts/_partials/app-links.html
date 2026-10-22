@@ -1,0 +1,7 @@
+{{- /* Buttons of an application: Google Play, web app. */ -}}
+{{- with .Params.playStoreUrl }}
+<a class="button" href="{{ . }}">{{ T "getOnPlay" }}</a>
+{{- end }}
+{{- with .Params.webAppUrl }}
+<a class="button button-secondary" href="{{ . }}">{{ T "openWebApp" }}</a>
+{{- end }}

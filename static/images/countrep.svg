@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<!-- From countrep/icons/app-icon-foreground.svg (tally marks enlarged 1.4x on the #1389FC background, as icon-512.png). Regenerate it if the icon changes. -->
+<rect width="1024" height="1024" rx="224" fill="#1389FC"/>
+<g transform="translate(512,512) scale(1.4) translate(-512,-512)" fill="none" stroke="#fff" stroke-width="60" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 368,340 V 684"/>
+<path d="M 464,340 V 684"/>
+<path d="M 560,340 V 684"/>
+<path d="M 656,340 V 684"/>
+<path d="M 296,628 L 728,396"/>
+</g>
+</svg>

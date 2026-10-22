@@ -1,0 +1,66 @@
+# Architech Sport: public site of the sport apps (ADR 0001).
+# https://sport.architech.lu
+#
+# Built with the Hugo version pinned in .github/workflows/deploy.yml.
+# No theme: the templates are in layouts/.
+#
+# One section per application (content/countrep/, content/step-challenge/),
+# with its presentation, help and legal pages. The front matter of the
+# section's _index file describes the app (logo, links, footer note).
+
+baseURL = 'https://sport.architech.lu/'
+title = 'Architech Sport'
+
+# English, the default language, at the root; French under /fr/.
+defaultContentLanguage = 'en'
+
+# Pages end in .html (/countrep/privacy.html): stable addresses to
+# declare to the app stores.
+uglyURLs = true
+
+# No /en/ copy of the English pages redirecting to the root.
+disableDefaultLanguageRedirect = true
+
+# Only plain pages: no tags, categories or RSS feeds. Hugo's own sitemap
+# is replaced by a single /sitemap.xml for both languages (Hugo's would
+# put the English one under /en/): see outputFormats below.
+disableKinds = ['taxonomy', 'term', 'rss', 'sitemap']
+
+# robots.txt, from layouts/robots.txt: points to the sitemap.
+enableRobotsTXT = true
+
+# Same paths in both languages: content/countrep/privacy.en.md and
+# content/countrep/privacy.fr.md become /countrep/privacy.html and
+# /fr/countrep/privacy.html.
+
+[languages.en]
+  label = 'English'
+  locale = 'en'
+  weight = 1
+
+[languages.fr]
+  label = 'Français'
+  locale = 'fr'
+  weight = 2
+  # The sitemap is generated once, by the English home page.
+  [languages.fr.outputs]
+    home = ['html']
+
+[params]
+  email = 'support@architech.lu'
+
+[markup.goldmark.renderer]
+  # Content is plain Markdown: no raw HTML.
+  unsafe = false
+
+# Single sitemap at the root, listing the pages of both languages with
+# their translations (layouts/home.sitemapxml.xml).
+[outputFormats.sitemapxml]
+  mediaType = 'application/xml'
+  baseName = 'sitemap'
+  isPlainText = true
+  notAlternative = true
+  root = true
+
+[outputs]
+  home = ['html', 'sitemapxml']

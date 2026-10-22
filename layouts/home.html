@@ -1,0 +1,30 @@
+{{ define "main" }}
+<section class="hero">
+  <img src="{{ "images/sport.svg" | relURL }}" alt="" width="96" height="96">
+  <h1>{{ site.Title }}</h1>
+  <p class="tagline">{{ T "siteTagline" }}</p>
+</section>
+<ul class="apps">
+  {{- range .Sections.ByWeight }}
+  <li class="app-card">
+    <a class="app-card-title" href="{{ partial "url.html" .RelPermalink }}">
+      <img src="{{ .Params.logo | relURL }}" alt="" width="64" height="64">
+      <span>
+        <strong>{{ .Title }}</strong>
+        <span>{{ .Params.tagline }}</span>
+      </span>
+    </a>
+    <p>{{ .Description }}</p>
+    <p class="app-card-actions">
+      <a class="button" href="{{ partial "url.html" .RelPermalink }}">{{ T "learnMore" }}</a>
+    </p>
+    {{- with .Params.status }}
+    <p class="hint">{{ . }}</p>
+    {{- end }}
+  </li>
+  {{- end }}
+</ul>
+<article class="content">
+  {{ .Content }}
+</article>
+{{ end }}

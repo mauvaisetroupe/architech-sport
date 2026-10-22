@@ -1,0 +1,21 @@
+{{- $app := .app -}}
+<footer class="site-footer">
+  <nav aria-label="{{ T "legalLabel" }}">
+    {{- with $app }}
+      {{- $app := . }}
+      {{- range slice "privacy" "agreement" "delete-account" }}
+        {{- with site.GetPage (printf "%s/%s" $app.Path .) }}
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{- end }}
+      {{- end }}
+      {{- with .Params.sourceUrl }}
+      <a href="{{ . }}">{{ T "sourceCode" }}</a>
+      {{- end }}
+    {{- end }}
+    <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>
+  </nav>
+  {{- with $app }}{{ with .Params.footerNote }}
+  <p>{{ . }}</p>
+  {{- end }}{{ end }}
+  <p><a href="{{ partial "url.html" site.Home.RelPermalink }}">{{ site.Title }}</a> — {{ T "siteTagline" }}</p>
+</footer>

@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{- if .Parent.IsHome }}
+{{- /* Home page of an application */}}
+<section class="hero">
+  <img src="{{ .Params.logo | relURL }}" alt="" width="96" height="96">
+  <h1>{{ .Title }}</h1>
+  <p class="tagline">{{ .Params.tagline }}</p>
+  <p class="hero-actions">{{ partial "app-links.html" . }}</p>
+  {{- with .Params.status }}
+  <p class="hint">{{ . }}</p>
+  {{- end }}
+</section>
+<article class="content">
+  {{ .Content }}
+</article>
+{{- else }}
+{{- /* Sub-section of an application, such as its help */}}
+<article class="content">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <ul class="cards">
+    {{- range .Pages.ByWeight }}
+    <li>
+      <a href="{{ .RelPermalink }}">
+        <strong>{{ .Title }}</strong>
+        {{- with .Description }}<span>{{ . }}</span>{{ end }}
+      </a>
+    </li>
+    {{- end }}
+  </ul>
+</article>
+{{- end }}
+{{ end }}

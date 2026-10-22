@@ -1,0 +1,28 @@
+{{- $page := .page -}}
+{{- $app := .app -}}
+<header class="site-header">
+  <div class="bar">
+    {{- with $app }}
+    <a class="brand" href="{{ partial "url.html" .RelPermalink }}">
+      <img src="{{ .Params.logo | relURL }}" alt="" width="36" height="36">
+      <span>{{ .Title }}</span>
+    </a>
+    {{- else }}
+    <a class="brand" href="{{ partial "url.html" site.Home.RelPermalink }}">
+      <img src="{{ "images/sport.svg" | relURL }}" alt="" width="36" height="36">
+      <span>{{ site.Title }}</span>
+    </a>
+    {{- end }}
+    <nav aria-label="{{ T "navLabel" }}">
+      {{- with $app }}
+        {{- with site.GetPage (printf "%s/help" .Path) }}
+        <a href="{{ partial "url.html" .RelPermalink }}">{{ T "help" }}</a>
+        {{- end }}
+        {{- with site.GetPage (printf "%s/faq" .Path) }}
+        <a href="{{ .RelPermalink }}">{{ T "faq" }}</a>
+        {{- end }}
+      {{- end }}
+      {{ partial "language-switch.html" $page }}
+    </nav>
+  </div>
+</header>

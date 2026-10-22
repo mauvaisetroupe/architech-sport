@@ -1,0 +1,30 @@
+{{- /* The application of the page: its top-level section, or nil on the home page. */ -}}
+{{- $app := partial "app.html" . -}}
+<!DOCTYPE html>
+<html lang="{{ site.Language.Lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    {{- if .IsHome }}{{ site.Title }} — {{ T "siteTagline" }}
+    {{- else if and $app (eq $app .) }}{{ .Title }} — {{ .Params.tagline }}
+    {{- else }}{{ .Title }}{{ with $app }} — {{ .Title }}{{ end }}{{ end -}}
+  </title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ T "siteTagline" }}{{ end }}">
+  <link rel="canonical" href="{{ partial "url.html" .Permalink }}">
+  {{- range .AllTranslations }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ partial "url.html" .Permalink }}">
+  {{- end }}
+  <link rel="icon" href="{{ with $app }}{{ .Params.logo | absURL }}{{ else }}{{ "images/sport.svg" | absURL }}{{ end }}" type="image/svg+xml">
+  {{- with resources.Get "css/site.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+  {{- end }}
+</head>
+<body>
+  {{ partial "header.html" (dict "page" . "app" $app) }}
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" (dict "page" . "app" $app) }}
+</body>
+</html>
