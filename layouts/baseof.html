@@ -8,7 +8,7 @@
   <title>
     {{- if .IsHome }}{{ site.Title }} — {{ T "siteTagline" }}
     {{- else if and $app (eq $app .) }}{{ .Title }} — {{ .Params.tagline }}
-    {{- else }}{{ .Title }}{{ with $app }} — {{ .Title }}{{ end }}{{ end -}}
+    {{- else }}{{ .Title }}{{ with $app }}{{ if not (strings.Contains $.Title .Title) }} — {{ .Title }}{{ end }}{{ end }}{{ end -}}
   </title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ T "siteTagline" }}{{ end }}">
   <link rel="canonical" href="{{ partial "url.html" .Permalink }}">
