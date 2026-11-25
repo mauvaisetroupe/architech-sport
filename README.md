@@ -31,7 +31,7 @@ hugo --minify      # construction complète dans public/ (ignoré par git)
 | `layouts/_partials/` | `app.html` (application de la page), en-tête, pied de page, boutons d'une application, sélecteur de langue et drapeaux (SVG intégrés), `url.html` (adresse sans `index.html` final) |
 | `assets/css/site.css` | Feuille de style, minifiée et empreinte à la construction |
 | `i18n/` | Textes des gabarits (`en.toml`, `fr.toml`) |
-| `static/` | Copié tel quel : logos (`images/`), marqueur `.architech-sport-site` |
+| `static/` | Copié tel quel : logos (`images/`), marqueur `.architech-sport-site`, invitations de Step Challenge (`step-challenge/i/index.html`, règle dans `.htaccess`) et App Links du domaine (`.well-known/assetlinks.json`, une entrée par application Android) |
 | `scripts/deploy-sftp.sh` | Envoi du site chez OVH en SFTP (voir « Déploiement ») |
 | `docs/adr/` | Décisions d'architecture |
 

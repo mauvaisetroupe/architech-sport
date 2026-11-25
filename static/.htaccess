@@ -1,0 +1,12 @@
+# Step Challenge invitations (ADR 0014 of step-challenge): every
+# /step-challenge/i/<code> address shows the same static page, which
+# reads the code from the address.
+RewriteEngine On
+# Without this condition, the page itself matches the rule too and loops.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^step-challenge/i/[^/]+/?$ /step-challenge/i/index.html [L]
+
+# App Links: Android reads this file as JSON, without redirect.
+<Files "assetlinks.json">
+  ForceType application/json
+</Files>

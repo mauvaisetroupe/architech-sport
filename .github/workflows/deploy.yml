@@ -48,6 +48,11 @@ jobs:
             test -f public/$app/delete-account.html
             test -f public/fr/$app/privacy.html
           done
+          # Step Challenge invitations and App Links (hidden files must
+          # be copied too).
+          test -f public/.htaccess
+          test -f public/.well-known/assetlinks.json
+          test -f public/step-challenge/i/index.html
           # English is at the root: no /en/ folder.
           test ! -e public/en
 
