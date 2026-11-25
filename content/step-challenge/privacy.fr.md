@@ -2,7 +2,7 @@
 title: Politique de confidentialité — Step Challenge
 linkTitle: Confidentialité
 description: Les données collectées par Step Challenge, pourquoi, et comment les supprimer.
-updated: 22 octobre 2026
+updated: 25 novembre 2026
 ---
 
 *Traduction de la version anglaise, qui fait foi en cas de divergence.*
@@ -54,9 +54,11 @@ pas ouverte, pour que les amis voient des pas à jour dans le classement.
 Cette autorisation peut être retirée à tout moment dans les paramètres
 de Santé Connect.
 
-Sur les appareils Huawei, Step Challenge utilise **Huawei Health Kit**
-pour accéder aux nombres de pas mis à disposition par Huawei Santé et
-les appareils compatibles.
+L'utilisateur peut choisir à la place **Huawei Santé** (Huawei Health),
+qui reçoit les pas des montres et bracelets Huawei, sur tout téléphone
+Android. Step Challenge lit alors les pas par **Huawei Health Kit** (voir
+la section 3). Une seule source est utilisée à la fois, au choix de
+l'utilisateur dans les paramètres de l'application.
 
 Sur les appareils Android sans Santé Connect (par exemple les téléphones
 Huawei), la version distribuée sur Huawei AppGallery peut lire à la
@@ -125,14 +127,32 @@ profilage.
 
 ## 3. Huawei Health Kit
 
-Sur les appareils Huawei compatibles, Step Challenge utilise Huawei
-Health Kit pour accéder aux données d'activité autorisées.
+Lorsque l'utilisateur choisit Huawei Santé comme source de ses pas, il
+se connecte avec son compte HUAWEI et autorise Step Challenge à lire ses
+pas. Cette connexion passe par HMS Core, l'application de services de
+Huawei, et demande l'identifiant du compte HUAWEI, son profil de base et
+la lecture des pas. Step Challenge ne demande aucune autre donnée de
+Huawei Santé.
 
-Step Challenge ne peut accéder aux données de Health Kit qu'après que
-l'utilisateur a accordé l'autorisation correspondante.
+Les pas sont lus dans le cloud de Huawei, où l'application Huawei Santé
+les a synchronisés, par l'interface de Huawei Health Kit. Step Challenge
+les lit à l'ouverture de l'application, et peut aussi les lire
+régulièrement quand elle n'est pas ouverte, pour que les amis voient des
+pas à jour.
+
+La lecture se fait sur le téléphone. Le jeton d'accès délivré par Huawei
+y reste : il n'est jamais envoyé au serveur de Step Challenge. Step
+Challenge ne conserve ni l'identifiant ni le profil du compte HUAWEI :
+seuls les nombres de pas quotidiens sont envoyés au serveur, comme avec
+Santé Connect.
+
+Les données traitées par Huawei (compte HUAWEI, Huawei Santé, cloud de
+Huawei) relèvent de la politique de confidentialité de Huawei.
 
 L'utilisateur peut retirer cette autorisation dans les paramètres de
-confidentialité et d'autorisations de Huawei Santé ou de l'appareil.
+confidentialité et d'autorisations de Huawei Santé ou de son compte
+HUAWEI, ou revenir à Santé Connect dans les paramètres de Step
+Challenge.
 
 Si l'autorisation est refusée ou retirée, Step Challenge ne peut plus
 récupérer de nouvelles données de pas depuis Huawei Health Kit. Les
@@ -162,7 +182,8 @@ nécessaires à l'application.
 Step Challenge ne vend pas de données personnelles.
 
 Dans l'application, le nom affiché et les nombres de pas quotidiens d'un
-utilisateur ne sont visibles que de ses amis. Le nom affiché est aussi
+utilisateur ne sont visibles que de ses amis, de même que ses badges et
+son niveau, calculés à partir de ses pas. Le nom affiché est aussi
 visible de toute personne qui ouvre un de ses liens d'invitation. Les
 minutes actives et le score d'activité ne sont visibles que de
 l'utilisateur.
@@ -183,10 +204,10 @@ nécessaire au fonctionnement de l'application, notamment l'historique
 des pas, les défis et les statistiques.
 
 L'utilisateur peut supprimer son compte Step Challenge à tout moment
-depuis l'application : **Paramètres → Supprimer mon compte**. Cette
+depuis l'application : **Plus → Compte → Supprimer mon compte**. Cette
 action supprime immédiatement et définitivement, sur le serveur, le
-compte, son nom affiché, son lien avec le compte Google, ses sessions et
-tout son historique de pas. Les données de pas enregistrées dans Santé
+compte, son nom affiché, son lien avec le compte Google, ses sessions,
+tout son historique de pas et ses badges. Les données de pas enregistrées dans Santé
 Connect ou Huawei Santé sur l'appareil ne sont pas concernées.
 
 La suppression du compte supprime aussi ses amitiés, les surnoms qu'il a

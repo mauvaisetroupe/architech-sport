@@ -2,7 +2,7 @@
 title: Privacy Policy — Step Challenge
 linkTitle: Privacy policy
 description: What data Step Challenge collects, why, and how to delete it.
-updated: 22 October 2026
+updated: 25 November 2026
 ---
 
 Step Challenge is a step-counting and challenge application that allows
@@ -45,8 +45,11 @@ background"), it also reads them about every 6 hours when the app is not
 open, so that friends see up-to-date steps in the leaderboard. This
 permission can be withdrawn at any time in the Health Connect settings.
 
-On Huawei devices, Step Challenge uses **Huawei Health Kit** to access
-step-count data made available by Huawei Health and compatible devices.
+Instead, the user can choose **Huawei Health**, which receives the
+steps of Huawei watches and bands, on any Android phone. Step Challenge
+then reads the steps through **Huawei Health Kit** (see section 3). Only
+one source is used at a time, chosen by the user in the application
+settings.
 
 On Android devices without Health Connect (for example Huawei phones),
 the version distributed on Huawei AppGallery can instead read the
@@ -110,14 +113,30 @@ third parties for their own advertising or profiling purposes.
 
 ## 3. Huawei Health Kit
 
-On compatible Huawei devices, Step Challenge uses Huawei Health Kit to
-access authorized fitness data.
+When the user chooses Huawei Health as the source of their steps, they
+sign in with their HUAWEI account and allow Step Challenge to read their
+steps. This sign-in goes through HMS Core, Huawei's services app, and
+requests the HUAWEI account identifier, its basic profile and read
+access to steps. Step Challenge does not request any other Huawei Health
+data.
 
-Step Challenge can access Health Kit data only after the user has
-granted the corresponding permission.
+Steps are read from Huawei's cloud, where the Huawei Health app has
+synchronized them, through the Huawei Health Kit interface. Step
+Challenge reads them when the application is opened, and may also read
+them regularly when it is not open, so that friends see up-to-date
+steps.
 
-The user can withdraw this authorization through the relevant Huawei
-Health or device privacy and permission settings.
+Reading happens on the phone. The access token issued by Huawei stays
+there: it is never sent to the Step Challenge server. Step Challenge
+does not keep the HUAWEI account identifier or profile: only daily step
+counts are sent to the server, as with Health Connect.
+
+Data processed by Huawei (HUAWEI account, Huawei Health, Huawei's cloud)
+is governed by Huawei's privacy policy.
+
+The user can withdraw this authorization through the privacy and
+permission settings of Huawei Health or of their HUAWEI account, or
+switch back to Health Connect in the Step Challenge settings.
 
 If permission is denied or withdrawn, Step Challenge will no longer be
 able to retrieve new step data from Huawei Health Kit. Previously
@@ -147,7 +166,8 @@ application.
 Step Challenge does not sell personal data.
 
 Within the application, a user's display name and daily step counts are
-visible only to their friends. The display name is also shown to anyone
+visible only to their friends, as are their badges and level, computed
+from their steps. The display name is also shown to anyone
 who opens one of the user's invitation links. Active minutes and the
 activity score are visible to the user only.
 
@@ -165,9 +185,10 @@ necessary to provide the application's features, including step
 history, challenges and statistics.
 
 Users can delete their Step Challenge account at any time from the
-application: **Settings → Delete my account**. This immediately and
-permanently deletes, on the server, the account, its display name, its
-link to the Google account, its sessions and its entire step history.
+application: **More → Account → Delete my account**. This immediately
+and permanently deletes, on the server, the account, its display name,
+its link to the Google account, its sessions, its entire step history
+and its badges.
 Step data stored in Health Connect or Huawei Health on the device is not
 affected.
 
