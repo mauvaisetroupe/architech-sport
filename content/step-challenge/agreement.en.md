@@ -2,14 +2,16 @@
 title: Step Challenge — User Agreement
 linkTitle: Terms of use
 description: The terms of use of the Step Challenge application.
-updated: 5 October 2026
+updated: 27 November 2026
 ---
 
 This User Agreement governs your use of the Step Challenge application
 and related services.
 
-By using Step Challenge, you agree to these terms. If you do not agree
-with these terms, please do not use the application.
+When you create your account, and again after each material change,
+the application asks you to accept these terms and the privacy policy.
+If you do not agree with these terms, you cannot use the application:
+you can sign out or delete your account.
 
 ## 1. About Step Challenge
 
@@ -26,6 +28,9 @@ explicitly authorizes access.
 
 Some Step Challenge features require a user account or a user
 identifier.
+
+You must be at least **16 years old** to create an account and use
+Step Challenge.
 
 You are responsible for providing accurate information when creating or
 configuring your account and for using the application only for your
@@ -142,7 +147,8 @@ legal requirements.
 This Agreement may be updated from time to time.
 
 When material changes are made, the updated version will be made
-available through the application or the Step Challenge website.
+available through the application and the Step Challenge website, and
+the application will ask you to accept it before you use it again.
 
 The date shown at the top of this page indicates when this Agreement was
 last updated.

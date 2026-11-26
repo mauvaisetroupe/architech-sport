@@ -2,7 +2,7 @@
 title: Privacy Policy — Step Challenge
 linkTitle: Privacy policy
 description: What data Step Challenge collects, why, and how to delete it.
-updated: 26 November 2026
+updated: 27 November 2026
 ---
 
 Step Challenge is a step-counting and challenge application that allows
@@ -94,6 +94,20 @@ any, the invitation through which the reported user was seen. Reports
 are used only to moderate the service. The reported user is not told,
 and never sees who reported them.
 
+### Consents
+
+The server keeps a record of the user's consents, with their date:
+
+- the acceptance of the terms of use and of this privacy policy, with
+  the version accepted;
+- each authorization to read HUAWEI Health granted (with the
+  permissions granted) or withdrawn (in Step Challenge, in the HUAWEI
+  Health app, or refused by HUAWEI Health Kit), as noticed by the
+  application.
+
+This record contains no step data. It serves to prove the consents and
+their withdrawal, and is deleted with the account.
+
 ## 2. How we use step data
 
 Step data is used only to provide Step Challenge functionality,
@@ -144,14 +158,20 @@ counts are sent to the server, as with Health Connect.
 Data processed by Huawei (HUAWEI account, HUAWEI Health, Huawei's cloud)
 is governed by Huawei's privacy policy.
 
-The user can withdraw this authorization through the privacy and
-permission settings of HUAWEI Health or of their HUAWEI account, or
-switch back to Health Connect in the Step Challenge settings.
+The user can withdraw this authorization in Step Challenge (**More →
+Step source → Remove access to HUAWEI Health**), through the privacy
+and permission settings of HUAWEI Health or of their HUAWEI account, or
+by switching back to Health Connect in the Step Challenge settings.
+
+When withdrawing the access in Step Challenge, the user chooses to keep
+the steps already saved by Step Challenge, or to delete them: all their
+saved daily steps and activity minutes, whatever their source, are then
+deleted from the server. Badges already earned are kept.
 
 If permission is denied or withdrawn, Step Challenge will no longer be
 able to retrieve new step data from HUAWEI Health Kit. Previously
-synchronized data may remain stored by Step Challenge until it is
-deleted according to this policy.
+synchronized data that the user chose to keep remains stored by Step
+Challenge until it is deleted according to this policy.
 
 ## 4. Synchronization with Step Challenge servers
 
@@ -264,13 +284,21 @@ including:
 - Restriction or objection to certain processing;
 - Data portability where applicable.
 
-Users can also revoke Step Challenge's access to HUAWEI Health data
-through the relevant HUAWEI Health or device permission settings.
+Users can download a copy of all the personal data kept by the server
+from the application: **More → Account → Export my data** gives a file
+(JSON) with their account, step history, friends, invitations, blocks,
+reports made, badges and consents. It is the exercise of the rights of
+access and portability.
+
+Users can also revoke Step Challenge's access to HUAWEI Health data in
+the application (see section 3), or through the relevant HUAWEI Health
+or device permission settings.
 
 ## 9. Children's privacy
 
-Step Challenge is not intended to knowingly collect personal information
-from children in violation of applicable law.
+Step Challenge is intended for people aged **16 and over**. It does not
+knowingly collect personal information from younger children. If we
+learn that an account belongs to a person under 16, it is deleted.
 
 ## 10. Changes to this policy
 
@@ -279,6 +307,9 @@ functionality or when legal or technical requirements change.
 
 The latest version will always be published at the privacy policy URL
 provided to users and application platforms.
+
+When the changes are material, the application asks each user to read
+and accept the new version before using it again.
 
 ## 11. Contact
 

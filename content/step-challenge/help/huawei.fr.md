@@ -76,8 +76,11 @@ et relit tes pas dans Santé Connect. S'il n'y arrive pas, il te le dit :
 retire-le toi-même dans HUAWEI Health, **Moi → Gestion de la
 confidentialité**, dans les applications autorisées.
 
-Les pas déjà envoyés restent dans Step Challenge ; pour les effacer,
-supprime ton compte (**Plus**, **Compte**).
+Avec **Retirer l'accès à HUAWEI Health**, Step Challenge te demande ce
+que deviennent les pas qu'il a déjà enregistrés : **Garder mes pas**, ou
+**Supprimer mes pas**. La suppression efface tous tes pas enregistrés,
+quelle que soit leur source ; Santé Connect renvoie ensuite ses 30
+derniers jours. Tes badges restent.
 
 ## Ça ne marche pas ?
 

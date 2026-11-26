@@ -2,7 +2,7 @@
 title: Politique de confidentialité — Step Challenge
 linkTitle: Confidentialité
 description: Les données collectées par Step Challenge, pourquoi, et comment les supprimer.
-updated: 26 novembre 2026
+updated: 27 novembre 2026
 ---
 
 *Traduction de la version anglaise, qui fait foi en cas de divergence.*
@@ -107,6 +107,21 @@ laquelle la personne signalée a été vue. Les signalements servent
 uniquement à la modération du service. La personne signalée n'est pas
 prévenue, et ne sait jamais qui l'a signalée.
 
+### Accords
+
+Le serveur garde une trace des accords de l'utilisateur, avec leur
+date :
+
+- l'acceptation des conditions d'utilisation et de cette politique de
+  confidentialité, avec la version acceptée ;
+- chaque autorisation de lecture de HUAWEI Health accordée (avec les
+  permissions accordées) ou retirée (dans Step Challenge, dans
+  l'application HUAWEI Health, ou refusée par HUAWEI Health Kit), telle
+  que l'application l'a constatée.
+
+Cette trace ne contient aucune donnée de pas. Elle sert à prouver les
+accords et leur retrait, et elle est supprimée avec le compte.
+
 ## 2. Utilisation des données de pas
 
 Les données de pas servent uniquement au fonctionnement de Step
@@ -159,15 +174,23 @@ Santé Connect.
 Les données traitées par Huawei (compte HUAWEI, HUAWEI Health, cloud de
 Huawei) relèvent de la politique de confidentialité de Huawei.
 
-L'utilisateur peut retirer cette autorisation dans les paramètres de
-confidentialité et d'autorisations de HUAWEI Health ou de son compte
-HUAWEI, ou revenir à Santé Connect dans les paramètres de Step
-Challenge.
+L'utilisateur peut retirer cette autorisation dans Step Challenge
+(**Plus → Source des pas → Retirer l'accès à HUAWEI Health**), dans les
+paramètres de confidentialité et d'autorisations de HUAWEI Health ou de
+son compte HUAWEI, ou en revenant à Santé Connect dans les paramètres de
+Step Challenge.
+
+En retirant l'accès dans Step Challenge, l'utilisateur choisit de garder
+les pas déjà enregistrés par Step Challenge, ou de les supprimer : tous
+ses pas quotidiens et minutes d'activité enregistrés, quelle que soit
+leur source, sont alors supprimés du serveur. Les badges déjà obtenus
+sont conservés.
 
 Si l'autorisation est refusée ou retirée, Step Challenge ne peut plus
 récupérer de nouvelles données de pas depuis HUAWEI Health Kit. Les
-données déjà synchronisées peuvent rester conservées par Step Challenge
-jusqu'à leur suppression conformément à la présente politique.
+données déjà synchronisées que l'utilisateur a choisi de garder restent
+conservées par Step Challenge jusqu'à leur suppression conformément à la
+présente politique.
 
 ## 4. Synchronisation avec les serveurs de Step Challenge
 
@@ -285,14 +308,23 @@ les utilisateurs peuvent disposer notamment des droits suivants :
 - limitation de certains traitements ou opposition à ceux-ci ;
 - portabilité des données, le cas échéant.
 
+Les utilisateurs peuvent télécharger une copie de toutes les données
+personnelles conservées par le serveur depuis l'application : **Plus →
+Compte → Exporter mes données** donne un fichier (JSON) avec leur
+compte, leur historique de pas, leurs amis, leurs invitations, leurs
+blocages, les signalements qu'ils ont faits, leurs badges et leurs
+accords. C'est l'exercice des droits d'accès et de portabilité.
+
 Les utilisateurs peuvent aussi retirer à Step Challenge l'accès aux
-données de HUAWEI Health dans les paramètres d'autorisations de HUAWEI
-Health ou de l'appareil.
+données de HUAWEI Health dans l'application (voir la section 3), ou dans
+les paramètres d'autorisations de HUAWEI Health ou de l'appareil.
 
 ## 9. Protection des enfants
 
-Step Challenge n'a pas vocation à collecter sciemment des informations
-personnelles d'enfants en violation de la législation applicable.
+Step Challenge est destiné aux personnes de **16 ans et plus**. Il ne
+collecte pas sciemment d'informations personnelles d'enfants plus
+jeunes. S'il apparaît qu'un compte appartient à une personne de moins de
+16 ans, il est supprimé.
 
 ## 10. Modifications de cette politique
 
@@ -303,6 +335,10 @@ exigences légales ou techniques évoluent.
 La dernière version est toujours publiée à l'adresse de la politique de
 confidentialité communiquée aux utilisateurs et aux plateformes de
 distribution d'applications.
+
+Lorsque les changements sont importants, l'application demande à chaque
+utilisateur de lire et d'accepter la nouvelle version avant de
+l'utiliser de nouveau.
 
 ## 11. Contact
 

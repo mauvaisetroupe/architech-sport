@@ -72,8 +72,10 @@ your steps from Health Connect again. If it can't, it tells you: remove
 it yourself in HUAWEI Health, **Me → Privacy management**, in the
 authorized apps.
 
-Steps already sent stay in Step Challenge; to erase them, delete your
-account (**More**, **Account**).
+With **Remove access to HUAWEI Health**, Step Challenge asks what
+happens to the steps it already saved: **Keep my steps**, or **Delete my
+steps**. Deleting erases all your saved steps, whatever their source;
+Health Connect then sends its last 30 days again. Your badges stay.
 
 ## It doesn't work?
 

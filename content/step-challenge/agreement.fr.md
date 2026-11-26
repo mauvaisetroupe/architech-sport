@@ -2,7 +2,7 @@
 title: Step Challenge — Conditions d'utilisation
 linkTitle: Conditions d'utilisation
 description: Les conditions d'utilisation de l'application Step Challenge.
-updated: 5 octobre 2026
+updated: 27 novembre 2026
 ---
 
 *Traduction de la version anglaise, qui fait foi en cas de divergence.*
@@ -10,8 +10,10 @@ updated: 5 octobre 2026
 Les présentes conditions d'utilisation régissent ton utilisation de
 l'application Step Challenge et des services associés.
 
-En utilisant Step Challenge, tu acceptes ces conditions. Si tu ne les
-acceptes pas, n'utilise pas l'application.
+À la création de ton compte, puis après chaque modification importante,
+l'application te demande d'accepter ces conditions et la politique de
+confidentialité. Si tu ne les acceptes pas, tu ne peux pas utiliser
+l'application : tu peux te déconnecter ou supprimer ton compte.
 
 ## 1. À propos de Step Challenge
 
@@ -29,6 +31,9 @@ compatibles, lorsque l'utilisateur en autorise explicitement l'accès.
 
 Certaines fonctionnalités de Step Challenge nécessitent un compte
 utilisateur ou un identifiant d'utilisateur.
+
+Tu dois avoir au moins **16 ans** pour créer un compte et utiliser
+Step Challenge.
 
 Tu es responsable de l'exactitude des informations que tu fournis lors
 de la création ou de la configuration de ton compte, et tu t'engages à
@@ -150,7 +155,8 @@ en charge, ou respecter des exigences techniques ou légales.
 Les présentes conditions peuvent être mises à jour de temps à autre.
 
 En cas de modification importante, la version mise à jour est rendue
-disponible dans l'application ou sur le site de Step Challenge.
+disponible dans l'application et sur le site de Step Challenge, et
+l'application te demande de l'accepter avant de l'utiliser de nouveau.
 
 La date indiquée en haut de cette page est celle de la dernière mise à
 jour des présentes conditions.

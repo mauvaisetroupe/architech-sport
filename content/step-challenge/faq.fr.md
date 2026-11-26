@@ -52,6 +52,12 @@ Step Challenge ne conserve qu'un identifiant technique de ton compte
 Google, jamais ton adresse e-mail ni ta photo. Voir la
 [politique de confidentialité]({{< relref "/step-challenge/privacy" >}}).
 
+## Comment récupérer mes données ?
+
+Onglet **Plus**, **Compte**, puis **Exporter mes données** : un fichier
+avec tout ce que Step Challenge garde sur toi (compte, pas, amis, badges,
+accords), à enregistrer ou à envoyer.
+
 ## Comment supprimer mon compte ?
 
 Onglet **Plus**, **Compte**, puis **Supprimer mon compte**. Tout est supprimé

@@ -52,6 +52,12 @@ Challenge keeps only a technical identifier of your Google account,
 never your email address or photo. See the
 [privacy policy]({{< relref "/step-challenge/privacy" >}}).
 
+## How do I get my data?
+
+**More** tab, **Account**, then **Export my data**: a file with
+everything Step Challenge keeps about you (account, steps, friends,
+badges, consents), to save or send.
+
 ## How do I delete my account?
 
 **More** tab, **Account**, then **Delete my account**. Everything is deleted immediately. Without the app, see the
