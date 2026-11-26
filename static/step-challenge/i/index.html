@@ -10,7 +10,9 @@
 
   The invitation code is only in the address. It must not leak: no
   external resource, no referrer, not indexed. The page contacts no
-  server; the app checks the code when it opens the invitation.
+  server; the app checks the code when it opens the invitation. Only
+  exception: the Google Play link carries it, for the app to open the
+  invitation after the install (ADR 0015 of step-challenge).
 -->
 <html lang="en">
 <head>
@@ -84,15 +86,12 @@
         <h1>You're invited to Step Challenge</h1>
         <p class="lead">A friend invites you to compare your steps of the week and of the month.</p>
 
-        <a class="button" data-open-app href="#">Open the invitation in the app</a>
+        <a class="button" data-open-app href="#">Accept the invitation</a>
 
-        <h2>Don't have the app yet?</h2>
-        <ol>
-          <li>Install <a data-play-store href="#">Step Challenge from Google Play</a>.</li>
-          <li>Sign in with your Google account.</li>
-          <li>Open this link again, or enter this code in
-            <em>Classement → Amis → J'ai un code</em> (Leaderboard → Friends → I have a code):</li>
-        </ol>
+        <p>The button opens the app, or Google Play if you don't have it yet. After installing, open Step Challenge and sign in with your Google account: the invitation shows up.</p>
+
+        <h2>The invitation doesn't show up?</h2>
+        <p>In the app, go to <em>Classement → Amis → J'ai un code</em> (Leaderboard → Friends → I have a code) and enter this code:</p>
 
         <p class="code" data-code></p>
         <p class="hint">This code is valid for 7 days.</p>
@@ -115,15 +114,12 @@
         <h1>Tu es invité·e sur Step Challenge</h1>
         <p class="lead">Un ami t'invite à comparer vos pas de la semaine et du mois.</p>
 
-        <a class="button" data-open-app href="#">Ouvrir l'invitation dans l'application</a>
+        <a class="button" data-open-app href="#">Accepter l'invitation</a>
 
-        <h2>Pas encore l'application ?</h2>
-        <ol>
-          <li>Installe <a data-play-store href="#">Step Challenge sur Google Play</a>.</li>
-          <li>Connecte-toi avec ton compte Google.</li>
-          <li>Rouvre ce lien, ou saisis ce code dans
-            <em>Classement → Amis → J'ai un code</em> :</li>
-        </ol>
+        <p>Le bouton ouvre l'application, ou Google Play si tu ne l'as pas encore. Après l'installation, ouvre Step Challenge et connecte-toi avec ton compte Google : l'invitation s'affiche.</p>
+
+        <h2>L'invitation ne s'affiche pas ?</h2>
+        <p>Dans l'application, va dans <em>Classement → Amis → J'ai un code</em> et saisis ce code :</p>
 
         <p class="code" data-code></p>
         <p class="hint">Ce code est valable 7 jours.</p>
@@ -190,19 +186,26 @@
 
       var code = normalize(raw)
 
+      // Google Play hands this referrer to the app once installed, which
+      // then opens the invitation at first launch (step-challenge ADR
+      // 0015). The code goes through Google Play, and only there.
+      var storeUrl = code
+        ? PLAY_STORE_URL + '&referrer=' + encodeURIComponent('invite=' + code.replace('-', ''))
+        : PLAY_STORE_URL
+
       // Opens the app when installed, the Play Store otherwise.
       var intentUrl = code
         ? 'intent://' + APP_LINK_PREFIX + code +
           '#Intent;scheme=https;package=' + PACKAGE +
-          ';S.browser_fallback_url=' + encodeURIComponent(PLAY_STORE_URL) + ';end'
+          ';S.browser_fallback_url=' + encodeURIComponent(storeUrl) + ';end'
         : null
 
       var all = function (selector) {
         return Array.prototype.slice.call(document.querySelectorAll(selector))
       }
 
-      all('[data-play-store]').forEach(function (a) { a.href = PLAY_STORE_URL })
-      all('[data-open-app]').forEach(function (a) { a.href = intentUrl || PLAY_STORE_URL })
+      all('[data-play-store]').forEach(function (a) { a.href = storeUrl })
+      all('[data-open-app]').forEach(function (a) { a.href = intentUrl || storeUrl })
       // textContent, never innerHTML: the code comes from the address.
       all('[data-code]').forEach(function (p) { p.textContent = code || '' })
       all('[data-state]').forEach(function (block) {

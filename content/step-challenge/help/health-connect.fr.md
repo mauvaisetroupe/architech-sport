@@ -50,9 +50,9 @@ paramètres et autorise l'écriture des **Pas**.
 ## 4. Vérifier dans l'application
 
 - L'ouverture de l'application met à jour les pas du jour. L'application
-  synchronise aussi en arrière-plan, environ une fois par jour.
-- S'il manque des pas : onglet **Paramètres**, section **Diagnostic**,
-  **Lancer le diagnostic**. Il vérifie Santé Connect, l'autorisation et
+  synchronise aussi en arrière-plan, environ toutes les 6 heures.
+- S'il manque des pas : onglet **Plus**, **Diagnostic**, **Lancer le
+  diagnostic**. Il vérifie Santé Connect, l'autorisation et
   la connexion au serveur.
 
 Toujours bloqué ? Consulte la [FAQ]({{< relref "/step-challenge/faq" >}}) ou écris à

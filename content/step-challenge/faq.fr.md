@@ -19,6 +19,8 @@ public ni recherche d'utilisateurs.
 Onglet **Classement**, **Amis**, puis **Inviter des amis** : partage le
 lien à une ou plusieurs personnes. Le lien est valable 7 jours. Si on
 t'a donné un code plutôt qu'un lien, saisis-le dans **J'ai un code**.
+Le parcours complet, y compris pour une personne qui n'a pas encore
+l'application : [inviter des amis]({{< relref "/step-challenge/help/invite-friends" >}}).
 
 Depuis le même écran, tu peux renommer un ami (toi seul vois le nouveau
 nom), le retirer, ou désactiver tes liens d'invitation.
@@ -31,8 +33,9 @@ Connect. Voir l'[aide Santé Connect]({{< relref "/step-challenge/help/health-co
 
 ## Ça marche avec ma montre Huawei ?
 
-Pas encore : la prise en charge de Huawei est en cours de validation par
-Huawei. Voir l'[aide Huawei]({{< relref "/step-challenge/help/huawei" >}}).
+Oui. Les montres Huawei n'envoient pas leurs pas à Santé Connect :
+choisis la source **Huawei Health** dans l'onglet **Plus**, **Source des
+pas**. Voir l'[aide Huawei]({{< relref "/step-challenge/help/huawei" >}}).
 
 ## Existe-t-il une version iPhone ?
 
@@ -40,7 +43,7 @@ Non, Step Challenge n'est disponible que sur Android.
 
 ## Comment changer mon nom ?
 
-Onglet **Paramètres**, **Nom affiché**, puis **Enregistrer**.
+Onglet **Plus**, **Compte**, **Nom affiché**, puis **Enregistrer**.
 
 ## Pourquoi se connecter avec Google ?
 
@@ -51,7 +54,7 @@ Google, jamais ton adresse e-mail ni ta photo. Voir la
 
 ## Comment supprimer mon compte ?
 
-**Paramètres**, puis **Supprimer mon compte**. Tout est supprimé
+Onglet **Plus**, **Compte**, puis **Supprimer mon compte**. Tout est supprimé
 immédiatement. Sans l'application, consulte la
 [page de suppression de compte]({{< relref "/step-challenge/delete-account" >}}).
 

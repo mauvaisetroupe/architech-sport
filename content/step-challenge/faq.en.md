@@ -4,8 +4,6 @@ linkTitle: FAQ
 description: Short answers to common questions about Step Challenge.
 ---
 
-The app is in French for now: its button labels are given in italics.
-
 ## Is Step Challenge free?
 
 Yes. No advertising, no subscription, no tracking.
@@ -18,10 +16,11 @@ search for users.
 
 ## How do I add friends?
 
-**Leaderboard** tab (*Classement*), **Friends** (*Amis*), then **Invite
-friends** (*Inviter des amis*): share the link with one or several
-people. The link is valid for 7 days. Someone who received a code
-instead of a link can enter it under **I have a code** (*J'ai un code*).
+**Leaderboard** tab, **Friends**, then **Invite friends**: share the
+link with one or several people. The link is valid for 7 days. Someone
+who received a code instead of a link can enter it under **I have a
+code**. The whole journey, including for someone who doesn't have the
+app yet: [invite friends]({{< relref "/step-challenge/help/invite-friends" >}}).
 
 From the same screen, you can rename a friend (only you see the new
 name), remove them, or deactivate your invitation links.
@@ -34,8 +33,9 @@ the [Health Connect help]({{< relref "/step-challenge/help/health-connect" >}}).
 
 ## Does it work with my Huawei watch?
 
-Not yet: Huawei support is being validated by Huawei. See the
-[Huawei help]({{< relref "/step-challenge/help/huawei" >}}).
+Yes. Huawei watches don't send their steps to Health Connect: choose
+the **Huawei Health** source in the **More** tab, **Step source**. See
+the [Huawei help]({{< relref "/step-challenge/help/huawei" >}}).
 
 ## Is there an iPhone version?
 
@@ -43,8 +43,7 @@ No, Step Challenge is only available on Android.
 
 ## How do I change my name?
 
-**Settings** tab (*Paramètres*), **Display name** (*Nom affiché*), then
-**Save** (*Enregistrer*).
+**More** tab, **Account**, **Display name**, then **Save**.
 
 ## Why sign in with Google?
 
@@ -55,8 +54,7 @@ never your email address or photo. See the
 
 ## How do I delete my account?
 
-**Settings** (*Paramètres*), then **Delete my account** (*Supprimer mon
-compte*). Everything is deleted immediately. Without the app, see the
+**More** tab, **Account**, then **Delete my account**. Everything is deleted immediately. Without the app, see the
 [account deletion page]({{< relref "/step-challenge/delete-account" >}}).
 
 ## Is the code really open source?

@@ -47,9 +47,9 @@ to write **Steps**.
 ## 4. Check in the app
 
 - Opening the app updates today's steps. The app also synchronizes in
-  the background, about once a day.
-- If steps are missing: **Settings** tab (*Paramètres*), **Diagnostic**
-  section, **Run the diagnostic** (*Lancer le diagnostic*). It checks
+  the background, about every 6 hours.
+- If steps are missing: **More** tab, **Diagnostics**, **Run the
+  diagnostics**. It checks
   Health Connect, the permission and the connection to the server.
 
 Still stuck? Read the [FAQ]({{< relref "/step-challenge/faq" >}}) or write to

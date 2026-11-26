@@ -13,8 +13,8 @@ et ce que deviennent tes données.
 **Depuis l'application** (immédiat) :
 
 1. Ouvre Step Challenge.
-2. Va dans l'onglet **Paramètres**.
-3. Dans la section **Compte**, appuie sur **Supprimer mon compte**.
+2. Va dans l'onglet **Plus**, puis **Compte**.
+3. Appuie sur **Supprimer mon compte**.
 4. Confirme. Ton compte est supprimé immédiatement.
 
 **Sans l'application** (par exemple si tu l'as désinstallée) :
