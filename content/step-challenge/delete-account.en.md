@@ -43,8 +43,10 @@ server:
 ## What is kept
 
 - **Nothing linked to your account is kept on the Step Challenge
-  server.** No backup copies of the database are retained: deletion is
-  immediate and permanent, and cannot be undone.
+  server.** Deletion is immediate and permanent, and cannot be undone.
+  Encrypted database backups, only used to restore the service after an
+  incident, are erased after 7 days: your data stays in them for at
+  most 7 days.
 - **Reports** (if you reported someone, or were reported) are kept,
   without any link to your account, until 12 months after they were
   processed, then deleted. They contain the reported display name and

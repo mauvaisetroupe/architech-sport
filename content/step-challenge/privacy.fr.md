@@ -2,7 +2,7 @@
 title: Politique de confidentialité — Step Challenge
 linkTitle: Confidentialité
 description: Les données collectées par Step Challenge, pourquoi, et comment les supprimer.
-updated: 25 novembre 2026
+updated: 26 novembre 2026
 ---
 
 *Traduction de la version anglaise, qui fait foi en cas de divergence.*
@@ -121,6 +121,11 @@ Challenge, notamment :
 Les données de pas ne sont utilisées ni à des fins de publicité, ni de
 profilage, ni de marketing, ni à des fins médicales.
 
+Step Challenge n'est pas un dispositif médical, et HUAWEI Health Kit
+non plus : les données de pas, qu'elles viennent de Santé Connect ou de
+HUAWEI Health Kit, sont données à titre indicatif et ne doivent pas
+servir de base à un diagnostic médical.
+
 Les données de pas obtenues par HUAWEI Health Kit ne sont ni vendues ni
 partagées avec des tiers pour leurs propres besoins de publicité ou de
 profilage.
@@ -182,6 +187,22 @@ Le serveur ne reçoit pas l'ensemble de la base de données HUAWEI Health
 de l'utilisateur. Step Challenge ne traite que les informations de pas
 nécessaires à l'application.
 
+### Hébergement et transfert hors de l'Union européenne
+
+Le serveur de Step Challenge est hébergé par OVHcloud, au **Canada**.
+Les données qu'il conserve (compte, nom affiché, nombres de pas
+quotidiens et minutes d'activité, amitiés, signalements) y sont donc
+transférées hors de l'Union européenne. Ce transfert repose sur la
+décision de la Commission européenne reconnaissant au Canada un niveau
+de protection adéquat des données personnelles.
+
+Les sauvegardes de la base de données sont chiffrées, puis copiées sur
+un serveur situé en **France**, administré par le développeur.
+
+Les données ne sont transférées vers aucun autre pays. Les données de
+HUAWEI Health autres que les nombres de pas quotidiens restent sur le
+téléphone de l'utilisateur.
+
 ## 5. Partage des données
 
 Step Challenge ne vend pas de données personnelles.
@@ -215,6 +236,11 @@ compte, son nom affiché, son lien avec le compte Google, ses sessions,
 tout son historique de pas et ses badges. Les données de pas enregistrées dans Santé
 Connect ou HUAWEI Health sur l'appareil ne sont pas concernées.
 
+Les sauvegardes chiffrées de la base de données sont gardées **7
+jours**, puis effacées. Elles ne servent qu'à restaurer le service après
+un incident : les données d'un compte supprimé y restent au plus 7
+jours.
+
 La suppression du compte supprime aussi ses amitiés, les surnoms qu'il a
 donnés et reçus, ses invitations et ses blocages.
 
@@ -236,7 +262,15 @@ utilisant les fonctions de suppression de données qu'elle propose.
 
 Des mesures techniques et organisationnelles raisonnables protègent les
 données de Step Challenge contre l'accès, la modification, la
-divulgation ou la destruction non autorisés.
+divulgation ou la destruction non autorisés, notamment :
+
+- toutes les communications entre l'application et le serveur sont
+  chiffrées (HTTPS) ;
+- le jeton de session est gardé dans le stockage sécurisé du téléphone,
+  et le serveur n'en conserve qu'une empreinte cryptographique ;
+- l'accès au serveur est restreint (pare-feu, connexion d'administration
+  par clé uniquement) ;
+- les sauvegardes de la base de données sont chiffrées.
 
 ## 8. Tes droits
 

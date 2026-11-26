@@ -43,8 +43,10 @@ Step Challenge :
 ## Ce qui est conservé
 
 - **Rien de lié à ton compte n'est conservé sur le serveur de Step
-  Challenge.** Aucune copie de sauvegarde de la base de données n'est
-  gardée : la suppression est immédiate, définitive et irréversible.
+  Challenge.** La suppression est immédiate, définitive et irréversible.
+  Les sauvegardes chiffrées de la base de données, qui ne servent qu'à
+  restaurer le service après un incident, sont effacées au bout de 7
+  jours : tes données y restent au plus 7 jours.
 - Les **signalements** (si tu as signalé quelqu'un, ou si tu as été
   signalé) sont conservés, sans lien avec ton compte, jusqu'à 12 mois
   après leur traitement, puis supprimés. Ils contiennent le nom affiché

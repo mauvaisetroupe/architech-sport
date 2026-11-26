@@ -2,7 +2,7 @@
 title: Privacy Policy — Step Challenge
 linkTitle: Privacy policy
 description: What data Step Challenge collects, why, and how to delete it.
-updated: 25 November 2026
+updated: 26 November 2026
 ---
 
 Step Challenge is a step-counting and challenge application that allows
@@ -108,6 +108,11 @@ including:
 Step data is not used for advertising, profiling, marketing or medical
 purposes.
 
+Step Challenge is not a medical device, and neither is HUAWEI Health
+Kit: step data, whether it comes from Health Connect or HUAWEI Health
+Kit, is for reference only and must not be used as a basis for medical
+diagnosis.
+
 Step data obtained through HUAWEI Health Kit is not sold or shared with
 third parties for their own advertising or profiling purposes.
 
@@ -166,6 +171,21 @@ The server does not receive the user's complete HUAWEI Health database.
 Step Challenge only processes the step information required by the
 application.
 
+### Hosting and transfer outside the European Union
+
+The Step Challenge server is hosted by OVHcloud, in **Canada**. The data
+it keeps (account, display name, daily step counts and activity
+minutes, friendships, reports) is therefore transferred outside the
+European Union. This transfer relies on the European Commission's
+decision recognizing that Canada provides an adequate level of
+protection for personal data.
+
+Database backups are encrypted, then copied to a server located in
+**France**, administered by the developer.
+
+Data is not transferred to any other country. HUAWEI Health data other
+than daily step counts stays on the user's phone.
+
 ## 5. Data sharing
 
 Step Challenge does not sell personal data.
@@ -197,6 +217,10 @@ and its badges.
 Step data stored in Health Connect or HUAWEI Health on the device is not
 affected.
 
+Encrypted database backups are kept for **7 days**, then erased. They
+are only used to restore the service after an incident: the data of a
+deleted account stays in them for at most 7 days.
+
 Deleting the account also deletes its friendships, the nicknames given
 to and by it, its invitations and its blocks.
 
@@ -218,7 +242,15 @@ data-deletion functionality.
 
 Reasonable technical and organizational measures are used to protect
 Step Challenge data against unauthorized access, alteration, disclosure
-or destruction.
+or destruction, including:
+
+- all communication between the application and the server is
+  encrypted (HTTPS);
+- the session token is kept in the phone's secure storage, and the
+  server only keeps a cryptographic hash of it;
+- access to the server is restricted (firewall, key-only administrative
+  login);
+- database backups are encrypted.
 
 ## 8. Your rights
 
