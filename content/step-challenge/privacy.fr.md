@@ -158,9 +158,8 @@ aucune autre donnée de HUAWEI Health.
 
 Les pas sont lus dans le cloud de Huawei, où l'application HUAWEI Health
 les a synchronisés, par l'interface de HUAWEI Health Kit. Step Challenge
-les lit à l'ouverture de l'application, et peut aussi les lire
-régulièrement quand elle n'est pas ouverte, pour que les amis voient des
-pas à jour. Pour la courbe d'une journée dans les statistiques, elle lit
+ne les lit que lorsque l'application est ouverte, jamais en arrière-plan.
+Pour la courbe d'une journée dans les statistiques, elle lit
 aussi les pas heure par heure de cette journée, quand l'appareil qui
 compte les pas les a envoyés à HUAWEI Health ; ce détail est affiché sur
 le téléphone et n'est pas envoyé au serveur.
