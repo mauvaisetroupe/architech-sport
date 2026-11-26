@@ -130,9 +130,11 @@ profilage.
 Lorsque l'utilisateur choisit HUAWEI Health comme source de ses pas, il
 se connecte avec son compte HUAWEI et autorise Step Challenge à lire ses
 pas. Cette connexion passe par HMS Core, l'application de services de
-Huawei, et demande l'identifiant du compte HUAWEI, son profil de base et
-la lecture des pas. Step Challenge ne demande aucune autre donnée de
-HUAWEI Health.
+Huawei, et demande l'identifiant du compte HUAWEI, son profil de base,
+la lecture des pas et, si l'utilisateur l'accepte, la lecture des pas du
+mois précédant son autorisation (sans elle, HUAWEI Health ne donne que
+les pas enregistrés depuis l'autorisation). Step Challenge ne demande
+aucune autre donnée de HUAWEI Health.
 
 Les pas sont lus dans le cloud de Huawei, où l'application HUAWEI Health
 les a synchronisés, par l'interface de HUAWEI Health Kit. Step Challenge

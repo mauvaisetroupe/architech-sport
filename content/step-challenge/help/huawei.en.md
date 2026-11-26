@@ -47,7 +47,9 @@ When HUAWEI Health is installed on your phone, the Step Challenge home
 screen also suggests it: **Use HUAWEI Health**.
 
 The steps of the last 30 days are read again from HUAWEI Health. A day
-already sent with more steps keeps its value.
+already sent with more steps keeps its value. On the authorization
+screen, also tick reading **historical data**: without it, HUAWEI Health
+only gives the steps recorded since your authorization.
 
 ## What changes with HUAWEI Health
 

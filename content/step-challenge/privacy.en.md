@@ -116,9 +116,11 @@ third parties for their own advertising or profiling purposes.
 When the user chooses HUAWEI Health as the source of their steps, they
 sign in with their HUAWEI account and allow Step Challenge to read their
 steps. This sign-in goes through HMS Core, Huawei's services app, and
-requests the HUAWEI account identifier, its basic profile and read
-access to steps. Step Challenge does not request any other HUAWEI Health
-data.
+requests the HUAWEI account identifier, its basic profile, read access
+to steps and, if the user accepts it, read access to the steps of the
+month before their authorization (without it, HUAWEI Health only gives
+the steps recorded since the authorization). Step Challenge does not
+request any other HUAWEI Health data.
 
 Steps are read from Huawei's cloud, where the HUAWEI Health app has
 synchronized them, through the HUAWEI Health Kit interface. Step

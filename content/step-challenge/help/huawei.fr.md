@@ -50,7 +50,9 @@ Si HUAWEI Health est installé sur ton téléphone, l'Accueil de Step
 Challenge te le propose aussi : **Utiliser HUAWEI Health**.
 
 Les pas des 30 derniers jours sont relus dans HUAWEI Health. Un jour déjà
-envoyé avec plus de pas garde sa valeur.
+envoyé avec plus de pas garde sa valeur. Sur l'écran d'autorisation,
+coche aussi la lecture des **données historiques** : sans elle, HUAWEI
+Health ne donne que les pas enregistrés depuis ton autorisation.
 
 ## Ce qui change avec HUAWEI Health
 
