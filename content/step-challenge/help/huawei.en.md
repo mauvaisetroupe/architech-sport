@@ -79,9 +79,16 @@ account (**More**, **Account**).
 - **"Step Challenge can't access your steps in HUAWEI Health"**: the
   permission was withdrawn in HUAWEI Health, refused, or given without
   the steps box. Tap **Authorize HUAWEI Health** and tick the steps.
-- **"HUAWEI Health Kit is turned off"**: in HUAWEI Health, **Me →
-  Privacy management**, turn on **HUAWEI Health Kit**, then tap **Try
-  again**.
+- **"HUAWEI Health Kit denies access to your steps"**: tap **Authorize
+  again** and tick the steps. If that's not enough, in HUAWEI Health,
+  **Me → Privacy management**, check that **HUAWEI Health Kit** is on
+  and that Step Challenge is allowed there.
+- **"HMS Core isn't responding"**, or loading that never ends: close
+  Step Challenge completely (swipe it out of recent apps) and open it
+  again.
+- **Steps no longer update**: in HUAWEI Health, **Me → Privacy
+  management**, turn **HUAWEI Health Kit** off for about ten seconds,
+  then back on.
 - **To dig deeper**: **More** tab, **Diagnostics**, **Run the
   diagnostics**. It tests the HUAWEI sign-in and the step reading; you
   can copy the result and send it to support.

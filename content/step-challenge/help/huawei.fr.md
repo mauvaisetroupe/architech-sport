@@ -84,9 +84,16 @@ supprime ton compte (**Plus**, **Compte**).
   l'autorisation a été retirée dans HUAWEI Health, refusée, ou donnée
   sans la case des pas. Touche **Autoriser HUAWEI Health** et coche les
   pas.
-- **« HUAWEI Health Kit est désactivé »** : dans HUAWEI Health, **Moi →
-  Gestion de la confidentialité**, active **HUAWEI Health Kit**, puis
-  touche **Réessayer**.
+- **« HUAWEI Health Kit refuse l'accès à tes pas »** : touche **Autoriser
+  de nouveau** et coche les pas. Si ça ne suffit pas, dans HUAWEI Health,
+  **Moi → Gestion de la confidentialité**, vérifie que **HUAWEI Health
+  Kit** est activé et que Step Challenge y est autorisé.
+- **« HMS Core ne répond pas »**, ou un chargement qui ne finit pas :
+  ferme complètement Step Challenge (balaie-la hors des applications
+  récentes) et rouvre-la.
+- **Les pas ne se mettent plus à jour** : dans HUAWEI Health, **Moi →
+  Gestion de la confidentialité**, désactive **HUAWEI Health Kit**
+  pendant une dizaine de secondes, puis réactive-le.
 - **Pour aller plus loin** : onglet **Plus**, **Diagnostic**, **Lancer le
   diagnostic**. Il teste la connexion HUAWEI et la lecture des pas ; tu
   peux copier le résultat et l'envoyer au support.
