@@ -50,7 +50,7 @@ Step Challenge :
   après leur traitement, puis supprimés. Ils contiennent le nom affiché
   signalé et le commentaire facultatif de l'auteur du signalement.
 - Les données de pas enregistrées sur ton téléphone par Santé Connect ou
-  Huawei Santé ne sont **pas** concernées : elles appartiennent à ces
+  HUAWEI Health ne sont **pas** concernées : elles appartiennent à ces
   applications, pas à Step Challenge.
 - Ton compte Google n'est pas concerné. Tu peux aussi retirer Step
   Challenge des applications associées à ton compte Google, dans les

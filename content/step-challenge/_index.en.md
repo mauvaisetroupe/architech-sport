@@ -25,9 +25,9 @@ leaderboards.
 - **Health Connect** on Android: steps counted by your phone or
   synchronized by compatible watches and apps (Garmin, Samsung, Xiaomi
   and others). See the [Health Connect help]({{< relref "/step-challenge/help/health-connect" >}}).
-- **Huawei Health**: support for Huawei watches, including on non-Huawei
+- **HUAWEI Health**: reading steps, including on non-Huawei
   phones, is being validated by Huawei and is not available yet. See the
-  [Huawei help]({{< relref "/step-challenge/help/huawei" >}}).
+  [HUAWEI Health help]({{< relref "/step-challenge/help/huawei" >}}).
 
 ## Respectful of your data
 

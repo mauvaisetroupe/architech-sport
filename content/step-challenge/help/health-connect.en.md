@@ -41,8 +41,8 @@ to Health Connect. In the watch app (Garmin Connect, Samsung Health,
 Zepp, Mi Fitness…), look for Health Connect in its settings and allow it
 to write **Steps**.
 
-> **Huawei watch?** Huawei Health does not send its data to Health
-> Connect. See the [Huawei help]({{< relref "/step-challenge/help/huawei" >}}).
+> **Your steps are in HUAWEI Health?** HUAWEI Health does not send its data to Health
+> Connect. See the [HUAWEI Health help]({{< relref "/step-challenge/help/huawei" >}}).
 
 ## 4. Check in the app
 

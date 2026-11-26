@@ -45,9 +45,9 @@ background"), it also reads them about every 6 hours when the app is not
 open, so that friends see up-to-date steps in the leaderboard. This
 permission can be withdrawn at any time in the Health Connect settings.
 
-Instead, the user can choose **Huawei Health**, which receives the
-steps of Huawei watches and bands, on any Android phone. Step Challenge
-then reads the steps through **Huawei Health Kit** (see section 3). Only
+Instead, the user can choose **HUAWEI Health**, which receives the
+steps of the watches and bands synced with it, on any Android phone. Step Challenge
+then reads the steps through **HUAWEI Health Kit** (see section 3). Only
 one source is used at a time, chosen by the user in the application
 settings.
 
@@ -108,20 +108,20 @@ including:
 Step data is not used for advertising, profiling, marketing or medical
 purposes.
 
-Step data obtained through Huawei Health Kit is not sold or shared with
+Step data obtained through HUAWEI Health Kit is not sold or shared with
 third parties for their own advertising or profiling purposes.
 
-## 3. Huawei Health Kit
+## 3. HUAWEI Health Kit
 
-When the user chooses Huawei Health as the source of their steps, they
+When the user chooses HUAWEI Health as the source of their steps, they
 sign in with their HUAWEI account and allow Step Challenge to read their
 steps. This sign-in goes through HMS Core, Huawei's services app, and
 requests the HUAWEI account identifier, its basic profile and read
-access to steps. Step Challenge does not request any other Huawei Health
+access to steps. Step Challenge does not request any other HUAWEI Health
 data.
 
-Steps are read from Huawei's cloud, where the Huawei Health app has
-synchronized them, through the Huawei Health Kit interface. Step
+Steps are read from Huawei's cloud, where the HUAWEI Health app has
+synchronized them, through the HUAWEI Health Kit interface. Step
 Challenge reads them when the application is opened, and may also read
 them regularly when it is not open, so that friends see up-to-date
 steps.
@@ -131,15 +131,15 @@ there: it is never sent to the Step Challenge server. Step Challenge
 does not keep the HUAWEI account identifier or profile: only daily step
 counts are sent to the server, as with Health Connect.
 
-Data processed by Huawei (HUAWEI account, Huawei Health, Huawei's cloud)
+Data processed by Huawei (HUAWEI account, HUAWEI Health, Huawei's cloud)
 is governed by Huawei's privacy policy.
 
 The user can withdraw this authorization through the privacy and
-permission settings of Huawei Health or of their HUAWEI account, or
+permission settings of HUAWEI Health or of their HUAWEI account, or
 switch back to Health Connect in the Step Challenge settings.
 
 If permission is denied or withdrawn, Step Challenge will no longer be
-able to retrieve new step data from Huawei Health Kit. Previously
+able to retrieve new step data from HUAWEI Health Kit. Previously
 synchronized data may remain stored by Step Challenge until it is
 deleted according to this policy.
 
@@ -157,7 +157,7 @@ account so that the application can:
 - Calculate challenges;
 - Provide leaderboards.
 
-The server does not receive the user's complete Huawei Health database.
+The server does not receive the user's complete HUAWEI Health database.
 Step Challenge only processes the step information required by the
 application.
 
@@ -189,7 +189,7 @@ application: **More → Account → Delete my account**. This immediately
 and permanently deletes, on the server, the account, its display name,
 its link to the Google account, its sessions, its entire step history
 and its badges.
-Step data stored in Health Connect or Huawei Health on the device is not
+Step data stored in Health Connect or HUAWEI Health on the device is not
 affected.
 
 Deleting the account also deletes its friendships, the nicknames given
@@ -227,8 +227,8 @@ including:
 - Restriction or objection to certain processing;
 - Data portability where applicable.
 
-Users can also revoke Step Challenge's access to Huawei Health data
-through the relevant Huawei Health or device permission settings.
+Users can also revoke Step Challenge's access to HUAWEI Health data
+through the relevant HUAWEI Health or device permission settings.
 
 ## 9. Children's privacy
 

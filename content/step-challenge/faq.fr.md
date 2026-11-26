@@ -31,11 +31,11 @@ Vérifie que Step Challenge est autorisé à lire tes pas dans Santé
 Connect, et que l'application de ta montre envoie ses pas à Santé
 Connect. Voir l'[aide Santé Connect]({{< relref "/step-challenge/help/health-connect" >}}).
 
-## Ça marche avec ma montre Huawei ?
+## Ça marche si mes pas sont dans HUAWEI Health ?
 
-Oui. Les montres Huawei n'envoient pas leurs pas à Santé Connect :
-choisis la source **Huawei Health** dans l'onglet **Plus**, **Source des
-pas**. Voir l'[aide Huawei]({{< relref "/step-challenge/help/huawei" >}}).
+Oui. HUAWEI Health n'envoie pas les pas à Santé Connect :
+choisis la source **HUAWEI Health** dans l'onglet **Plus**, **Source des
+pas**. Voir l'[aide HUAWEI Health]({{< relref "/step-challenge/help/huawei" >}}).
 
 ## Existe-t-il une version iPhone ?
 

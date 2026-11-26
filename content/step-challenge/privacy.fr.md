@@ -54,9 +54,9 @@ pas ouverte, pour que les amis voient des pas à jour dans le classement.
 Cette autorisation peut être retirée à tout moment dans les paramètres
 de Santé Connect.
 
-L'utilisateur peut choisir à la place **Huawei Santé** (Huawei Health),
-qui reçoit les pas des montres et bracelets Huawei, sur tout téléphone
-Android. Step Challenge lit alors les pas par **Huawei Health Kit** (voir
+L'utilisateur peut choisir à la place **HUAWEI Health**,
+qui reçoit les pas des montres et bracelets qui s'y synchronisent, sur tout téléphone
+Android. Step Challenge lit alors les pas par **HUAWEI Health Kit** (voir
 la section 3). Une seule source est utilisée à la fois, au choix de
 l'utilisateur dans les paramètres de l'application.
 
@@ -121,21 +121,21 @@ Challenge, notamment :
 Les données de pas ne sont utilisées ni à des fins de publicité, ni de
 profilage, ni de marketing, ni à des fins médicales.
 
-Les données de pas obtenues par Huawei Health Kit ne sont ni vendues ni
+Les données de pas obtenues par HUAWEI Health Kit ne sont ni vendues ni
 partagées avec des tiers pour leurs propres besoins de publicité ou de
 profilage.
 
-## 3. Huawei Health Kit
+## 3. HUAWEI Health Kit
 
-Lorsque l'utilisateur choisit Huawei Santé comme source de ses pas, il
+Lorsque l'utilisateur choisit HUAWEI Health comme source de ses pas, il
 se connecte avec son compte HUAWEI et autorise Step Challenge à lire ses
 pas. Cette connexion passe par HMS Core, l'application de services de
 Huawei, et demande l'identifiant du compte HUAWEI, son profil de base et
 la lecture des pas. Step Challenge ne demande aucune autre donnée de
-Huawei Santé.
+HUAWEI Health.
 
-Les pas sont lus dans le cloud de Huawei, où l'application Huawei Santé
-les a synchronisés, par l'interface de Huawei Health Kit. Step Challenge
+Les pas sont lus dans le cloud de Huawei, où l'application HUAWEI Health
+les a synchronisés, par l'interface de HUAWEI Health Kit. Step Challenge
 les lit à l'ouverture de l'application, et peut aussi les lire
 régulièrement quand elle n'est pas ouverte, pour que les amis voient des
 pas à jour.
@@ -146,16 +146,16 @@ Challenge ne conserve ni l'identifiant ni le profil du compte HUAWEI :
 seuls les nombres de pas quotidiens sont envoyés au serveur, comme avec
 Santé Connect.
 
-Les données traitées par Huawei (compte HUAWEI, Huawei Santé, cloud de
+Les données traitées par Huawei (compte HUAWEI, HUAWEI Health, cloud de
 Huawei) relèvent de la politique de confidentialité de Huawei.
 
 L'utilisateur peut retirer cette autorisation dans les paramètres de
-confidentialité et d'autorisations de Huawei Santé ou de son compte
+confidentialité et d'autorisations de HUAWEI Health ou de son compte
 HUAWEI, ou revenir à Santé Connect dans les paramètres de Step
 Challenge.
 
 Si l'autorisation est refusée ou retirée, Step Challenge ne peut plus
-récupérer de nouvelles données de pas depuis Huawei Health Kit. Les
+récupérer de nouvelles données de pas depuis HUAWEI Health Kit. Les
 données déjà synchronisées peuvent rester conservées par Step Challenge
 jusqu'à leur suppression conformément à la présente politique.
 
@@ -173,7 +173,7 @@ de l'utilisateur, afin que l'application puisse :
 - calculer les défis ;
 - fournir les classements.
 
-Le serveur ne reçoit pas l'ensemble de la base de données Huawei Santé
+Le serveur ne reçoit pas l'ensemble de la base de données HUAWEI Health
 de l'utilisateur. Step Challenge ne traite que les informations de pas
 nécessaires à l'application.
 
@@ -208,7 +208,7 @@ depuis l'application : **Plus → Compte → Supprimer mon compte**. Cette
 action supprime immédiatement et définitivement, sur le serveur, le
 compte, son nom affiché, son lien avec le compte Google, ses sessions,
 tout son historique de pas et ses badges. Les données de pas enregistrées dans Santé
-Connect ou Huawei Santé sur l'appareil ne sont pas concernées.
+Connect ou HUAWEI Health sur l'appareil ne sont pas concernées.
 
 La suppression du compte supprime aussi ses amitiés, les surnoms qu'il a
 donnés et reçus, ses invitations et ses blocages.
@@ -247,8 +247,8 @@ les utilisateurs peuvent disposer notamment des droits suivants :
 - portabilité des données, le cas échéant.
 
 Les utilisateurs peuvent aussi retirer à Step Challenge l'accès aux
-données de Huawei Santé dans les paramètres d'autorisations de Huawei
-Santé ou de l'appareil.
+données de HUAWEI Health dans les paramètres d'autorisations de HUAWEI
+Health ou de l'appareil.
 
 ## 9. Protection des enfants
 

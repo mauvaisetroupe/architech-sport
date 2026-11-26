@@ -49,7 +49,7 @@ server:
   without any link to your account, until 12 months after they were
   processed, then deleted. They contain the reported display name and
   the reporter's optional comment.
-- Step data stored on your phone by Health Connect or Huawei Health is
+- Step data stored on your phone by Health Connect or HUAWEI Health is
   **not** affected: it belongs to those applications, not to Step
   Challenge.
 - Your Google account is not affected. You can also remove Step

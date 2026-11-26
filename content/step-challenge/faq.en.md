@@ -31,11 +31,11 @@ Check that Step Challenge is allowed to read your steps in Health
 Connect, and that your watch app sends its steps to Health Connect. See
 the [Health Connect help]({{< relref "/step-challenge/help/health-connect" >}}).
 
-## Does it work with my Huawei watch?
+## Does it work if my steps are in HUAWEI Health?
 
-Yes. Huawei watches don't send their steps to Health Connect: choose
-the **Huawei Health** source in the **More** tab, **Step source**. See
-the [Huawei help]({{< relref "/step-challenge/help/huawei" >}}).
+Yes. HUAWEI Health doesn't send the steps to Health Connect: choose
+the **HUAWEI Health** source in the **More** tab, **Step source**. See
+the [HUAWEI Health help]({{< relref "/step-challenge/help/huawei" >}}).
 
 ## Is there an iPhone version?
 

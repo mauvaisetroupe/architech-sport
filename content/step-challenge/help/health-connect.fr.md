@@ -44,8 +44,8 @@ tes pas à Santé Connect. Dans l'application de la montre (Garmin Connect,
 Samsung Health, Zepp, Mi Fitness…), cherche Santé Connect dans les
 paramètres et autorise l'écriture des **Pas**.
 
-> **Une montre Huawei ?** Huawei Santé n'envoie pas ses données à Santé
-> Connect. Consulte l'[aide Huawei]({{< relref "/step-challenge/help/huawei" >}}).
+> **Tes pas sont dans HUAWEI Health ?** HUAWEI Health n'envoie pas ses données à Santé
+> Connect. Consulte l'[aide HUAWEI Health]({{< relref "/step-challenge/help/huawei" >}}).
 
 ## 4. Vérifier dans l'application
 

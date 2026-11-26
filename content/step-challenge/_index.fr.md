@@ -26,9 +26,9 @@ de la semaine et du mois.
 - **Santé Connect** sur Android : les pas comptés par ton téléphone ou
   synchronisés par les montres et applications compatibles (Garmin,
   Samsung, Xiaomi et d'autres). Voir l'[aide Santé Connect]({{< relref "/step-challenge/help/health-connect" >}}).
-- **Huawei Santé** : la prise en charge des montres Huawei, y compris sur
+- **HUAWEI Health** : la lecture des pas, y compris sur
   un téléphone d'une autre marque, est en cours de validation par Huawei
-  et n'est pas encore disponible. Voir l'[aide Huawei]({{< relref "/step-challenge/help/huawei" >}}).
+  et n'est pas encore disponible. Voir l'[aide HUAWEI Health]({{< relref "/step-challenge/help/huawei" >}}).
 
 ## Respectueux de tes données
 
