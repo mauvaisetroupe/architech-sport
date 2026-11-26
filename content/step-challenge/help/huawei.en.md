@@ -56,8 +56,11 @@ already sent with more steps keeps its value.
   late.
 - Step Challenge reads your steps **when you open it** (and when you
   pull down to refresh): not in the background yet.
-- The minute-by-minute detail (the day's curve, inactivity, active
-  minutes) is not available: Step Challenge says so wherever it applies.
+- The day's curve (Statistics → 1D) is hour by hour, if your watch
+  sends this detail to HUAWEI Health (Huawei watches do); otherwise only
+  the day's total exists.
+- The minute-by-minute detail (inactivity, active minutes, activity
+  score) is not available: Step Challenge says so wherever it applies.
 
 ## Stop using HUAWEI Health
 

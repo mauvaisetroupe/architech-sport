@@ -124,7 +124,10 @@ Steps are read from Huawei's cloud, where the HUAWEI Health app has
 synchronized them, through the HUAWEI Health Kit interface. Step
 Challenge reads them when the application is opened, and may also read
 them regularly when it is not open, so that friends see up-to-date
-steps.
+steps. For the curve of a day in the statistics, it also reads that
+day's steps hour by hour, when the device counting the steps has sent
+them to HUAWEI Health; this detail is shown on the phone and is not sent
+to the server.
 
 Reading happens on the phone. The access token issued by Huawei stays
 there: it is never sent to the Step Challenge server. Step Challenge

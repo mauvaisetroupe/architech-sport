@@ -59,8 +59,11 @@ envoyé avec plus de pas garde sa valeur.
   Health si un chiffre te semble en retard.
 - Step Challenge lit tes pas **quand tu l'ouvres** (et quand tu tires
   l'écran vers le bas pour actualiser) : pas encore en arrière-plan.
-- Le détail minute par minute (courbe de la journée, inactivité,
-  minutes actives) n'est pas disponible : Step Challenge le dit à chaque
+- La courbe de la journée (Statistiques → 1j) est heure par heure, si
+  ta montre envoie ce détail à HUAWEI Health (c'est le cas des montres
+  Huawei) ; sinon, seul le total du jour existe.
+- Le détail minute par minute (inactivité, minutes actives, score
+  d'activité) n'est pas disponible : Step Challenge le dit à chaque
   endroit concerné.
 
 ## Arrêter d'utiliser HUAWEI Health
