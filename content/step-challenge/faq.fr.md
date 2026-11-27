@@ -31,6 +31,12 @@ Vérifie que Step Challenge est autorisé à lire tes pas dans Santé
 Connect, et que l'application de ta montre envoie ses pas à Santé
 Connect. Voir l'[aide Santé Connect]({{< relref "/step-challenge/help/health-connect" >}}).
 
+## J'ai beaucoup trop de pas certains jours. Pourquoi ?
+
+Souvent, l'application de ta montre additionne ses pas et ceux du
+téléphone. Voir « Mes pas sont comptés en double » dans
+l'[aide Santé Connect]({{< relref "/step-challenge/help/health-connect" >}}).
+
 ## Ça marche si mes pas sont dans HUAWEI Health ?
 
 Oui. HUAWEI Health n'envoie pas les pas à Santé Connect :

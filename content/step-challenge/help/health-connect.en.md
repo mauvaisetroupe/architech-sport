@@ -52,5 +52,35 @@ to write **Steps**.
   diagnostics**. It checks
   Health Connect, the permission and the connection to the server.
 
+## 5. My steps are counted twice
+
+On some days, Step Challenge shows far more steps than your watch's app
+(for example 50,000 instead of 16,000)? Step Challenge copies what Health
+Connect holds: the extra steps are there. To check, open **Health
+Connect**, **Data and access**, **Steps**, and look at that day.
+
+The most common cause: the watch's app **also** counts the phone's
+steps, and adds both before sending them to Health Connect. Health
+Connect can then no longer tell them apart.
+
+1. **Keep only the watch in its app.** Take the phone's step counter
+   away from it: phone settings, **Apps**, the watch's app (Mi Fitness,
+   for example), **Permissions**, **Physical activity**, **Don't allow**.
+   If the phone is listed among its devices, remove it too.
+2. **Let Health Connect decide.** If you also want the phone's steps
+   (on days without the watch), let the phone send them to Health
+   Connect itself. Then in **Health Connect**, **Data and access**,
+   **Activity**, **Steps**, **Data sources and priority**, put the
+   watch's app first: Health Connect keeps its steps and only takes the
+   phone's when the watch counted nothing.
+3. **Delete the extra steps.** In Health Connect, first take away the
+   watch app's permission to write steps (otherwise it may write them
+   again), delete its steps for the days concerned, then give the
+   permission back and sync the watch.
+4. **Correct Step Challenge.** **More** tab, **Step source**, **Read my
+   last 30 days again**: Step Challenge shows you the days that change,
+   even downward, and only replaces them once you agree. For an older
+   day, write to us.
+
 Still stuck? Read the [FAQ]({{< relref "/step-challenge/faq" >}}) or write to
 [support@architech.lu](mailto:support@architech.lu).

@@ -55,5 +55,37 @@ paramètres et autorise l'écriture des **Pas**.
   diagnostic**. Il vérifie Santé Connect, l'autorisation et
   la connexion au serveur.
 
+## 5. Mes pas sont comptés en double
+
+Certains jours, Step Challenge affiche bien plus de pas que l'application
+de ta montre (par exemple 50 000 au lieu de 16 000) ? Step Challenge
+recopie ce que contient Santé Connect : c'est là que les pas sont en
+trop. Pour le vérifier, ouvre **Santé Connect**, **Données et accès**,
+**Pas**, et regarde le jour concerné.
+
+La cause la plus fréquente : l'application de la montre compte **aussi**
+les pas du téléphone, et additionne les deux avant de les envoyer à
+Santé Connect. Santé Connect ne peut alors plus les départager.
+
+1. **Ne laisse que la montre dans son application.** Retire-lui le
+   podomètre du téléphone : paramètres du téléphone, **Applications**,
+   l'application de la montre (Mi Fitness, par exemple), **Autorisations**,
+   **Activité physique**, **Ne pas autoriser**. Si le téléphone apparaît
+   parmi ses appareils, retire-le aussi.
+2. **Laisse Santé Connect départager.** Si tu veux aussi les pas du
+   téléphone (les jours sans montre), qu'il les envoie lui-même à Santé
+   Connect. Puis dans **Santé Connect**, **Données et accès**,
+   **Activité**, **Pas**, **Sources et priorité des données**, mets
+   l'application de la montre en premier : Santé Connect garde ses pas
+   et ne prend ceux du téléphone que lorsque la montre n'a rien compté.
+3. **Supprime les pas en trop.** Dans Santé Connect, retire d'abord à
+   l'application de la montre l'autorisation d'écrire les pas (sinon elle
+   peut les réécrire), supprime ses pas des jours concernés, puis rends-lui
+   l'autorisation et synchronise la montre.
+4. **Corrige Step Challenge.** Onglet **Plus**, **Source des pas**,
+   **Relire mes 30 derniers jours** : Step Challenge te montre les jours
+   qui changent, même à la baisse, et ne remplace qu'après ton accord.
+   Pour un jour plus ancien, écris-nous.
+
 Toujours bloqué ? Consulte la [FAQ]({{< relref "/step-challenge/faq" >}}) ou écris à
 [support@architech.lu](mailto:support@architech.lu).

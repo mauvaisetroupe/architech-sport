@@ -31,6 +31,12 @@ Check that Step Challenge is allowed to read your steps in Health
 Connect, and that your watch app sends its steps to Health Connect. See
 the [Health Connect help]({{< relref "/step-challenge/help/health-connect" >}}).
 
+## I have far too many steps on some days. Why?
+
+Often, your watch's app adds its steps and the phone's. See "My steps
+are counted twice" in the
+[Health Connect help]({{< relref "/step-challenge/help/health-connect" >}}).
+
 ## Does it work if my steps are in HUAWEI Health?
 
 Yes. HUAWEI Health doesn't send the steps to Health Connect: choose
